@@ -1,0 +1,15 @@
+const { Squelize, Model } = require('sequelize');
+const dotenv = require('dotenv');
+
+dotenv.config();
+
+const sequelize = new Squelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASS, {
+    host: process.env.DB_HOST,
+    dialect: 'postgres',
+    port: process.env.DB_PORT,
+    logging: false,
+    timezone: '-05:00',
+});
+
+module.exports = sequelize;5
+
