@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+vendor/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# OS specific files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# Database
+*.sqlite3
+*.db
+*.dat
+
+# Build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Testing
+test-results/
+*.test.js
+*.test.ts
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Cache
+.cache/
+npm-cache/
+yarn-cache/
